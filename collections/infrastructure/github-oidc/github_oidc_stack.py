@@ -28,8 +28,8 @@ class GitHubOidcStack(Stack):
                 },
                 "StringLike": {
                     "token.actions.githubusercontent.com:sub": [
-                        "repo:bennettck/collections:ref:refs/heads/main",
-                        "repo:bennettck/kcr:ref:refs/heads/main",
+                        "repo:bennettck/collections:*",
+                        "repo:bennettck/kcr:*",
                     ],
                 },
             },
