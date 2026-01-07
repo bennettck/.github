@@ -6,6 +6,11 @@ on:
       - main
     paths:
       - 'infra/**'
+      - 'src/**'
+      - 'lib/**'
+      - 'lambda/**'
+      - 'functions/**'
+      - 'app/**'
   workflow_dispatch:
     inputs:
       environment:
