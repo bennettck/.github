@@ -55,7 +55,7 @@ jobs:
           cache-dependency-path: infra/requirements.txt
 
       - name: Install CDK CLI
-        run: npm install -g aws-cdk@2.1100.1
+        run: npm install -g aws-cdk@2.232.1
 
       - name: Install Python dependencies
         working-directory: infra
